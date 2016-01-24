@@ -1,4 +1,6 @@
- object Fib {
+import scala.annotation.tailrec
+
+object Fib {
 
     // Direct recursive implementation
     def fib_direct(n: Int):Int = n match {
@@ -8,7 +10,7 @@
     }
 
     // Accumulated implementation
-    def fib_accumulated(n: Int, a: Int, b: Int) : Int = n match{
+    @tailrec def fib_accumulated(n: Int, a: Int, b: Int) : Int = n match{
         case 0 => a
         case _ => fib_accumulated(n-1, a+b, a)
     }
@@ -30,4 +32,4 @@
     def main(args: Array[String]) : Unit = {
    	    println(fib_cont(10))
     }
- }
+}
