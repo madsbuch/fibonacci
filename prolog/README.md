@@ -1,4 +1,6 @@
 # Prolog Fibonacci Implementation
+A [blog post](http://buchi.dk/blog/100-days-of-fibonacci-day-4-prolog/) with
+some elaboration.
 
 ## Running
 Start the swipl interpreter reading the initial propositions:
