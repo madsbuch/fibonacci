@@ -1,5 +1,8 @@
 # Play with Fibonacci in Haskell
-Alogn with [a blog post](http://buchi.dk/blog/100-days-of-fibonacci-day-0-haskell/).
+Along with a blog post on 
+[basic fibonacci](http://buchi.dk/blog/100-days-of-fibonacci-day-0-haskell/)
+and one on
+[type level programming](http://buchi.dk/blog/100-days-of-fibonacci-day-9-haskell-types/).
 
 ## Fib.hs
 The `Fib.hs` file contains value level implementations of the
