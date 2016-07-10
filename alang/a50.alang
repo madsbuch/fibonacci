@@ -1,0 +1,17 @@
+
+<--- Last few GCs --->
+
+    6409 ms: Scavenge 1397.9 (1458.1) -> 1397.9 (1458.1) MB, 0.3 / 0 ms (+ 1.9 ms in 1 steps since last GC) [allocation failure] [incremental marking delaying mark-sweep].
+    7608 ms: Mark-sweep 1397.9 (1458.1) -> 1397.8 (1458.1) MB, 1198.9 / 0 ms (+ 3.0 ms in 2 steps since start of marking, biggest step 1.9 ms) [last resort gc].
+    9231 ms: Mark-sweep 1397.8 (1458.1) -> 1397.8 (1458.1) MB, 1623.3 / 0 ms [last resort gc].
+
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+Security context: 0x3179723e3ac1 <JS Object>
+    2: generate [/home/mads/Dropbox/git/fibonacci/alang/generate.js:~1] [pc=0x1ce68b35dbab] (this=0x117f3070ba99 <JS Global Object>,n=3)
+    3: generate [/home/mads/Dropbox/git/fibonacci/alang/generate.js:~1] [pc=0x1ce68b35db76] (this=0x117f3070ba99 <JS Global Object>,n=4)
+    4: generate [/home/mads/Dropbox/git/fibonacci/alang/generate.js:~1] [pc=0x1ce68b35db76] (this=0x117f3070ba99 <JS Global...
+
