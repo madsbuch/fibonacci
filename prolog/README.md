@@ -1,5 +1,5 @@
 # Prolog Fibonacci Implementation
-A [blog post](http://buchi.dk/blog/100-days-of-fibonacci-day-4-prolog/) with
+A [blog post](https://madsbuch.com/100-days-of-fibonacci-day-4-prolog/) with
 some elaboration.
 
 ## Running

@@ -37,15 +37,7 @@ class fib {
     }
 }
 
-
-
-
-
-
-
 echo fibRecursive(10) . "\n";
 echo (new fib(10))->iterativeFibonacci() . "\n";
-
-
 
 ?>
